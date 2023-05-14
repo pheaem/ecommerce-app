@@ -20,7 +20,6 @@ export default function EditProductPage() {
     <Layout>
       <h1>Edit product</h1>
       {productInfo && (
-        console.log(productInfo),
         <ProductForm {...productInfo} />
       )}
     </Layout>
